@@ -1,0 +1,123 @@
+#nombre-uni{
+	/*color: black;*/
+}
+
+#nombre-uni:hover{
+	/*color: gray;*/
+	text-decoration-line: none;
+}
+
+#slogan{
+	font-style: italic;
+}
+
+.navbar{
+	padding-bottom: 0px;
+}
+
+.navbar-nav{
+	width: 100%;
+}
+
+.nav-item{
+	width: 100%;
+	text-align: center;
+	border-bottom: 2px solid transparent;
+}
+
+/*.nav-item:hover{
+	background-color: white;
+	border-bottom: 2px solid black;
+	transform: scale(1,1.1);
+}*/
+
+.nav-link{
+	margin: 0px;
+	/*font-weight: bolder;*/
+	white-space: nowrap;
+	text-transform: capitalize;
+}
+
+.nav-link:hover{
+	color: black;
+}
+
+.logo-uni{
+	width: 55px;
+	height: 55px;
+	margin: 1%;
+}
+
+.carousel-item{
+	height: 500px;
+}
+
+.carousel-item img{
+	height: 100%;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.btn{
+	font-size: 10pt;
+}
+
+.card{
+	border: none !important;
+}
+
+.dropdown-menu{
+	width: 100%;
+}
+
+.dropdown:hover{
+	/*Color del li seleccionado*/
+	/*background-color: red;*/
+}
+
+.dropdown:hover>.dropdown-menu{
+	display: block;
+}
+
+.dropdown-submenu:hover>.dropdown-menu{
+	display: block;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+
+.navbar-toggler{
+
+}
+
+/*@media handheld, only screen and (max-width: 600px) {
+.hidden-xs{
+display:none;
+}
+}*/
+
+/*Reajusta el tamaño de los div y oculta header
+de a cuerdo al tamaño de la pantalla*/
+@media only screen and (max-width: 1023px) {
+.hidden-xs{
+display:none;
+}
+.carousel-item{
+	height: 300px;
+}
+}
+
+@media only screen and (max-width: 100px){
+.carousel-item{
+	height: 150px;
+}	
+}
